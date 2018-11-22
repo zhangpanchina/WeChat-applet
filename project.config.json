@@ -1,20 +1,16 @@
 {
 	"description": "项目配置文件。",
-	"packOptions": {
-		"ignore": []
-	},
 	"setting": {
 		"urlCheck": true,
-		"es6": true,
+		"es6": false,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
+	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
-	"libVersion": "2.0.0",
-	"appid": "wxcd40f82bb8349b9a",
-	"projectname": "Reader",
-	"isGameTourist": false,
+	"appid": "touristappid",
+	"projectname": "my-project",
 	"condition": {
 		"search": {
 			"current": -1,
