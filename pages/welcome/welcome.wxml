@@ -1,0 +1,10 @@
+<view class='container'>
+  <button class='btn' wx:if="{{!hasUserInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <block wx:else>
+    <image class='user_4' src="{{userInfo.avatarUrl}}"  ></image>
+    <text class='name'> Hello,{{userInfo.nickName}}</text>
+    <view class='moto_container' bindtap='onTap'>
+      <text class='moto'>开启小程序之旅</text>
+    </view>
+  </block>
+</view>
